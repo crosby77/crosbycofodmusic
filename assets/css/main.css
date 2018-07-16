@@ -2152,8 +2152,6 @@
 
 		}
 
-		iframe {
-		  width: auto ;
-		  max-width: auto ;
-		  height: auto ;
-		}
+		iframe, object, embed {
+    max-width: 100%;
+}
